@@ -1,0 +1,37 @@
+.card{
+    flex-basis: 450px;
+}
+.pricing{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 900px) {
+
+}
+@media all and (prefers-reduced-motion:reduced){
+
+}
+
+@media print {
+    
+}
+/* Step 11 and 12 */
+@media only screen and (min-width: 1200px) {
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links{
+    display: flex;
+}
+.card{
+    flex-basis: 275px;
+}
+.pricing{
+    align-items: center;
+}
+}
+
